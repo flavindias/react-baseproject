@@ -3,7 +3,8 @@ const webpack = require('webpack')
 const validate = require('webpack-validator')
 
 module.exports = {
-  entry: path.join(__dirname, 'src', 'index'), 
+	devtool: 'source-map',
+  entry:path.join(__dirname, 'src', 'index'),
   module: {
     rules: [
       {
@@ -25,6 +26,7 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin()
   ],
   devServer: {
+  	port: 8081,
     contentBase: './dist',
     hot: true
   }
