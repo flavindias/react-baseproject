@@ -1,0 +1,35 @@
+{
+  "name": "react-baseproject",
+  "version": "1.0.0",
+  "description": "A base project to ReactJS development with webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flavindias/react-baseproject.git"
+  },
+  "keywords": [],
+  "author": "Flaviano Dias @flavindias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flavindias/react-baseproject/issues"
+  },
+  "homepage": "https://github.com/flavindias/react-baseproject#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "react-hot-loader": "^4.8.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1",
+    "webpack-validator": "^3.0.1"
+  },
+  "dependencies": {
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5"
+  }
+}
