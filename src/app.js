@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-var App = React.createClass({
-  render: function () {
-    return <h1>Aplicação</h1>
-  }
-})
-
-export default App
+export default class App extends React.Component {
+    render(){
+       return(
+           <div>
+               <h1> the list  </h1>
+           </div>   
+        )
+     }
+}

@@ -8,7 +8,7 @@ const renderApp = (NextApp) => {
     <AppContainer>
       <NextApp />
     </AppContainer>,
-    document.querySelector('[data-js="app"]')
+    document.getElementById('app')
   )
 }
 
